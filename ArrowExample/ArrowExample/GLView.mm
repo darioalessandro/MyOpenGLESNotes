@@ -15,11 +15,19 @@
     if (self = [super initWithFrame:frame]) {
         CAEAGLLayer* eaglLayer = (CAEAGLLayer*) super.layer;
         eaglLayer.opaque = YES;
-        m_context = [[EAGLContext alloc] initWithAPI:kEAGLRenderingAPIOpenGLES1];
-        if (!m_context || ![EAGLContext setCurrentContext:m_context]) {
+        EAGLRenderingAPI api = kEAGLRenderingAPIOpenGLES2;
+        m_context = [[EAGLContext alloc] initWithAPI:api];
+        if (!m_context) {
+            api = kEAGLRenderingAPIOpenGLES1;
+            m_context = [[EAGLContext alloc] initWithAPI:api]; }
+        if (!m_context || ![EAGLContext setCurrentContext:m_context]) { 
             return nil;
         }
-        m_renderingEngine = CreateRenderer1();
+        if (api == kEAGLRenderingAPIOpenGLES1) {
+            m_renderingEngine = CreateRenderer1();
+        } else {
+            m_renderingEngine = CreateRenderer2();
+        }
         [m_context renderbufferStorage:GL_RENDERBUFFER fromDrawable: eaglLayer];
         m_renderingEngine->Initialize(CGRectGetWidth(frame), CGRectGetHeight(frame));
         [self drawView: nil];
