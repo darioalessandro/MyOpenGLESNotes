@@ -168,7 +168,8 @@ void RenderingEngine2::Render() const
     glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
     
     glEnableVertexAttribArray(positionSlot); glEnableVertexAttribArray(colorSlot);
-    mat4 rotation(m_animation.Current.ToMatrix()); mat4 translation = mat4::Translate(0, 0, -7);
+    mat4 rotation(m_animation.Current.ToMatrix());
+    mat4 translation = mat4::Translate(0, 0, -7);
     // Set the model-view matrix.
     GLint modelviewUniform = glGetUniformLocation(m_simpleProgram,"Modelview");
     mat4 modelviewMatrix = rotation * translation;
