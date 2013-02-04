@@ -4,55 +4,16 @@
    version = "1.0">
    <FileBreakpoints>
       <FileBreakpoint
-         shouldBeEnabled = "No"
-         ignoreCount = "0"
-         continueAfterRunningActions = "No"
-         filePath = "ArrowExample/RenderingEngine2.cpp"
-         timestampString = "381629161.817641"
-         startingColumnNumber = "9223372036854775807"
-         endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "127"
-         endingLineNumber = "127"
-         landmarkName = "RenderingEngine2::UpdateAnimation(float timeStep)"
-         landmarkType = "5">
-      </FileBreakpoint>
-      <FileBreakpoint
-         shouldBeEnabled = "No"
-         ignoreCount = "0"
-         continueAfterRunningActions = "No"
-         filePath = "ArrowExample/RenderingEngine2.cpp"
-         timestampString = "381629161.817641"
-         startingColumnNumber = "9223372036854775807"
-         endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "73"
-         endingLineNumber = "73"
-         landmarkName = "RenderingEngine2::Render()"
-         landmarkType = "5">
-      </FileBreakpoint>
-      <FileBreakpoint
-         shouldBeEnabled = "No"
-         ignoreCount = "0"
-         continueAfterRunningActions = "No"
-         filePath = "ArrowExample/RenderingEngine2.cpp"
-         timestampString = "381629161.817641"
-         startingColumnNumber = "9223372036854775807"
-         endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "93"
-         endingLineNumber = "93"
-         landmarkName = "RenderingEngine2::Render()"
-         landmarkType = "5">
-      </FileBreakpoint>
-      <FileBreakpoint
          shouldBeEnabled = "Yes"
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "ArrowExample/RenderingEngine2.cpp"
-         timestampString = "381629161.817641"
+         timestampString = "381640938.817352"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "78"
-         endingLineNumber = "78"
-         landmarkName = "RenderingEngine2::Render()"
+         startingLineNumber = "229"
+         endingLineNumber = "229"
+         landmarkName = "RenderingEngine2::UpdateAnimation(float timeStep)"
          landmarkType = "5">
       </FileBreakpoint>
    </FileBreakpoints>

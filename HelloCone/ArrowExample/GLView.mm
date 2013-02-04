@@ -17,7 +17,7 @@
         eaglLayer.opaque = YES;
         EAGLRenderingAPI api = kEAGLRenderingAPIOpenGLES2;
         m_context = [[EAGLContext alloc] initWithAPI:api];
-        if (!m_context || TRUE) {
+        if (!m_context || FALSE) {
             api = kEAGLRenderingAPIOpenGLES1;
             m_context = [[EAGLContext alloc] initWithAPI:api]; }
         if (!m_context || ![EAGLContext setCurrentContext:m_context]) { 
