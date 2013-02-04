@@ -1,0 +1,345 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0654835616BF0CD00006B530 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0654835516BF0CD00006B530 /* UIKit.framework */; };
+		0654835816BF0CD00006B530 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0654835716BF0CD00006B530 /* Foundation.framework */; };
+		0654835A16BF0CD00006B530 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0654835916BF0CD00006B530 /* CoreGraphics.framework */; };
+		0654836016BF0CD00006B530 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0654835E16BF0CD00006B530 /* InfoPlist.strings */; };
+		0654836216BF0CD00006B530 /* main.mm in Sources */ = {isa = PBXBuildFile; fileRef = 0654836116BF0CD00006B530 /* main.mm */; };
+		0654836616BF0CD00006B530 /* BFAppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 0654836516BF0CD00006B530 /* BFAppDelegate.mm */; };
+		0654836816BF0CD00006B530 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 0654836716BF0CD00006B530 /* Default.png */; };
+		0654836A16BF0CD00006B530 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0654836916BF0CD00006B530 /* Default@2x.png */; };
+		0654836C16BF0CD00006B530 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0654836B16BF0CD00006B530 /* Default-568h@2x.png */; };
+		0654837916BF0CF80006B530 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0654837816BF0CF80006B530 /* QuartzCore.framework */; };
+		0654837C16BF0D080006B530 /* GLView.mm in Sources */ = {isa = PBXBuildFile; fileRef = 0654837B16BF0D080006B530 /* GLView.mm */; };
+		0654837E16BF0D2A0006B530 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0654837D16BF0D2A0006B530 /* OpenGLES.framework */; };
+		0654838316BF12EE0006B530 /* RenderingEngine1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0654838216BF12EE0006B530 /* RenderingEngine1.cpp */; };
+		0654838516BF256B0006B530 /* RenderingEngine2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0654838416BF256B0006B530 /* RenderingEngine2.cpp */; };
+		0654838816BF29330006B530 /* Simple.vert in Sources */ = {isa = PBXBuildFile; fileRef = 0654838716BF29330006B530 /* Simple.vert */; };
+		0654838A16BF29AE0006B530 /* Simple.frag in Sources */ = {isa = PBXBuildFile; fileRef = 0654838916BF29AE0006B530 /* Simple.frag */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		064E9D0616BF45C200BD2A74 /* Quaternion.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Quaternion.hpp; sourceTree = "<group>"; };
+		064E9D0716BF45C200BD2A74 /* Matrix.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Matrix.hpp; sourceTree = "<group>"; };
+		064E9D0816BF45C200BD2A74 /* Vector.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Vector.hpp; sourceTree = "<group>"; };
+		0654835216BF0CD00006B530 /* HelloCone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloCone.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0654835516BF0CD00006B530 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		0654835716BF0CD00006B530 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		0654835916BF0CD00006B530 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		0654835D16BF0CD00006B530 /* HelloCone-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HelloCone-Info.plist"; sourceTree = "<group>"; };
+		0654835F16BF0CD00006B530 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0654836116BF0CD00006B530 /* main.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = main.mm; sourceTree = "<group>"; };
+		0654836316BF0CD00006B530 /* HelloCone-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HelloCone-Prefix.pch"; sourceTree = "<group>"; };
+		0654836416BF0CD00006B530 /* BFAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BFAppDelegate.h; sourceTree = "<group>"; };
+		0654836516BF0CD00006B530 /* BFAppDelegate.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = BFAppDelegate.mm; sourceTree = "<group>"; };
+		0654836716BF0CD00006B530 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		0654836916BF0CD00006B530 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		0654836B16BF0CD00006B530 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		0654837816BF0CF80006B530 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		0654837A16BF0D080006B530 /* GLView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLView.h; sourceTree = "<group>"; };
+		0654837B16BF0D080006B530 /* GLView.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = GLView.mm; sourceTree = "<group>"; };
+		0654837D16BF0D2A0006B530 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		0654838016BF11E10006B530 /* IRenderingEngine.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = IRenderingEngine.hpp; sourceTree = "<group>"; };
+		0654838216BF12EE0006B530 /* RenderingEngine1.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = RenderingEngine1.cpp; sourceTree = "<group>"; };
+		0654838416BF256B0006B530 /* RenderingEngine2.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = RenderingEngine2.cpp; sourceTree = "<group>"; };
+		0654838716BF29330006B530 /* Simple.vert */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = Simple.vert; sourceTree = "<group>"; };
+		0654838916BF29AE0006B530 /* Simple.frag */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = Simple.frag; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0654834F16BF0CD00006B530 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0654837E16BF0D2A0006B530 /* OpenGLES.framework in Frameworks */,
+				0654837916BF0CF80006B530 /* QuartzCore.framework in Frameworks */,
+				0654835616BF0CD00006B530 /* UIKit.framework in Frameworks */,
+				0654835816BF0CD00006B530 /* Foundation.framework in Frameworks */,
+				0654835A16BF0CD00006B530 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		064E9D0916BF45C700BD2A74 /* VecLib */ = {
+			isa = PBXGroup;
+			children = (
+				064E9D0616BF45C200BD2A74 /* Quaternion.hpp */,
+				064E9D0716BF45C200BD2A74 /* Matrix.hpp */,
+				064E9D0816BF45C200BD2A74 /* Vector.hpp */,
+			);
+			name = VecLib;
+			sourceTree = "<group>";
+		};
+		0654834916BF0CCF0006B530 = {
+			isa = PBXGroup;
+			children = (
+				0654837D16BF0D2A0006B530 /* OpenGLES.framework */,
+				0654837816BF0CF80006B530 /* QuartzCore.framework */,
+				0654835B16BF0CD00006B530 /* ArrowExample */,
+				0654835416BF0CD00006B530 /* Frameworks */,
+				0654835316BF0CD00006B530 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0654835316BF0CD00006B530 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0654835216BF0CD00006B530 /* HelloCone.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0654835416BF0CD00006B530 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0654835516BF0CD00006B530 /* UIKit.framework */,
+				0654835716BF0CD00006B530 /* Foundation.framework */,
+				0654835916BF0CD00006B530 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0654835B16BF0CD00006B530 /* ArrowExample */ = {
+			isa = PBXGroup;
+			children = (
+				064E9D0916BF45C700BD2A74 /* VecLib */,
+				0654838616BF29030006B530 /* Shaders */,
+				0654836416BF0CD00006B530 /* BFAppDelegate.h */,
+				0654836516BF0CD00006B530 /* BFAppDelegate.mm */,
+				0654837A16BF0D080006B530 /* GLView.h */,
+				0654837B16BF0D080006B530 /* GLView.mm */,
+				0654838016BF11E10006B530 /* IRenderingEngine.hpp */,
+				0654838216BF12EE0006B530 /* RenderingEngine1.cpp */,
+				0654838416BF256B0006B530 /* RenderingEngine2.cpp */,
+				0654835C16BF0CD00006B530 /* Supporting Files */,
+			);
+			path = ArrowExample;
+			sourceTree = "<group>";
+		};
+		0654835C16BF0CD00006B530 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0654835D16BF0CD00006B530 /* HelloCone-Info.plist */,
+				0654835E16BF0CD00006B530 /* InfoPlist.strings */,
+				0654836116BF0CD00006B530 /* main.mm */,
+				0654836316BF0CD00006B530 /* HelloCone-Prefix.pch */,
+				0654836716BF0CD00006B530 /* Default.png */,
+				0654836916BF0CD00006B530 /* Default@2x.png */,
+				0654836B16BF0CD00006B530 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0654838616BF29030006B530 /* Shaders */ = {
+			isa = PBXGroup;
+			children = (
+				0654838716BF29330006B530 /* Simple.vert */,
+				0654838916BF29AE0006B530 /* Simple.frag */,
+			);
+			name = Shaders;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0654835116BF0CD00006B530 /* HelloCone */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0654837516BF0CD00006B530 /* Build configuration list for PBXNativeTarget "HelloCone" */;
+			buildPhases = (
+				0654834E16BF0CD00006B530 /* Sources */,
+				0654834F16BF0CD00006B530 /* Frameworks */,
+				0654835016BF0CD00006B530 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HelloCone;
+			productName = ArrowExample;
+			productReference = 0654835216BF0CD00006B530 /* HelloCone.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0654834A16BF0CCF0006B530 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = BF;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Dario Lencina";
+			};
+			buildConfigurationList = 0654834D16BF0CCF0006B530 /* Build configuration list for PBXProject "HelloCone" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0654834916BF0CCF0006B530;
+			productRefGroup = 0654835316BF0CD00006B530 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0654835116BF0CD00006B530 /* HelloCone */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0654835016BF0CD00006B530 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0654836016BF0CD00006B530 /* InfoPlist.strings in Resources */,
+				0654836816BF0CD00006B530 /* Default.png in Resources */,
+				0654836A16BF0CD00006B530 /* Default@2x.png in Resources */,
+				0654836C16BF0CD00006B530 /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0654834E16BF0CD00006B530 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0654836216BF0CD00006B530 /* main.mm in Sources */,
+				0654836616BF0CD00006B530 /* BFAppDelegate.mm in Sources */,
+				0654837C16BF0D080006B530 /* GLView.mm in Sources */,
+				0654838316BF12EE0006B530 /* RenderingEngine1.cpp in Sources */,
+				0654838516BF256B0006B530 /* RenderingEngine2.cpp in Sources */,
+				0654838816BF29330006B530 /* Simple.vert in Sources */,
+				0654838A16BF29AE0006B530 /* Simple.frag in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0654835E16BF0CD00006B530 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0654835F16BF0CD00006B530 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0654837316BF0CD00006B530 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0654837416BF0CD00006B530 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0654837616BF0CD00006B530 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ArrowExample/HelloCone-Prefix.pch";
+				INFOPLIST_FILE = "ArrowExample/HelloCone-Info.plist";
+				PRODUCT_NAME = HelloCone;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		0654837716BF0CD00006B530 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ArrowExample/HelloCone-Prefix.pch";
+				INFOPLIST_FILE = "ArrowExample/HelloCone-Info.plist";
+				PRODUCT_NAME = HelloCone;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0654834D16BF0CCF0006B530 /* Build configuration list for PBXProject "HelloCone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0654837316BF0CD00006B530 /* Debug */,
+				0654837416BF0CD00006B530 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0654837516BF0CD00006B530 /* Build configuration list for PBXNativeTarget "HelloCone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0654837616BF0CD00006B530 /* Debug */,
+				0654837716BF0CD00006B530 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0654834A16BF0CCF0006B530 /* Project object */;
+}
